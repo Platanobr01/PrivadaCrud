@@ -49,8 +49,8 @@
             this.label9 = new System.Windows.Forms.Label();
             this.textBox8 = new System.Windows.Forms.TextBox();
             this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.label10 = new System.Windows.Forms.Label();
+            this.checkedListBox2 = new System.Windows.Forms.CheckedListBox();
             ((System.ComponentModel.ISupportInitialize)(this.dt)).BeginInit();
             this.SuspendLayout();
             // 
@@ -248,17 +248,6 @@
             this.checkedListBox1.TabIndex = 23;
             this.checkedListBox1.ItemCheck += new System.Windows.Forms.ItemCheckEventHandler(this.checkedListBox1_ItemCheck);
             // 
-            // radioButton1
-            // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(633, 65);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(85, 17);
-            this.radioButton1.TabIndex = 24;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "radioButton1";
-            this.radioButton1.UseVisualStyleBackColor = true;
-            // 
             // label10
             // 
             this.label10.AutoSize = true;
@@ -270,13 +259,24 @@
             this.label10.Text = "¿Tiene mascotas?";
             this.label10.Click += new System.EventHandler(this.label10_Click);
             // 
+            // checkedListBox2
+            // 
+            this.checkedListBox2.FormattingEnabled = true;
+            this.checkedListBox2.Items.AddRange(new object[] {
+            "Si",
+            "No"});
+            this.checkedListBox2.Location = new System.Drawing.Point(669, 65);
+            this.checkedListBox2.Name = "checkedListBox2";
+            this.checkedListBox2.Size = new System.Drawing.Size(46, 34);
+            this.checkedListBox2.TabIndex = 26;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.checkedListBox2);
             this.Controls.Add(this.label10);
-            this.Controls.Add(this.radioButton1);
             this.Controls.Add(this.checkedListBox1);
             this.Controls.Add(this.textBox8);
             this.Controls.Add(this.label9);
@@ -330,8 +330,8 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.TextBox textBox8;
         private System.Windows.Forms.CheckedListBox checkedListBox1;
-        private System.Windows.Forms.RadioButton radioButton1;
         private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.CheckedListBox checkedListBox2;
     }
 }
 
