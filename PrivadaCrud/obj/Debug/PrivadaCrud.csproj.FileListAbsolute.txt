@@ -8,3 +8,4 @@ C:\Users\SraYuli\Source\Repos\Platanobr01\PrivadaCrud\PrivadaCrud\obj\Debug\Priv
 C:\Users\SraYuli\Source\Repos\Platanobr01\PrivadaCrud\PrivadaCrud\obj\Debug\PrivadaCrud.csproj.CoreCompileInputs.cache
 C:\Users\SraYuli\Source\Repos\Platanobr01\PrivadaCrud\PrivadaCrud\obj\Debug\PrivadaCrud.exe
 C:\Users\SraYuli\Source\Repos\Platanobr01\PrivadaCrud\PrivadaCrud\obj\Debug\PrivadaCrud.pdb
+C:\Users\SraYuli\Source\Repos\Platanobr01\PrivadaCrud\PrivadaCrud\obj\Debug\PrivadaCrud.Form2.resources
