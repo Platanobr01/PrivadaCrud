@@ -51,6 +51,7 @@
             this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
             this.label10 = new System.Windows.Forms.Label();
             this.checkedListBox2 = new System.Windows.Forms.CheckedListBox();
+            this.Proveedores = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dt)).BeginInit();
             this.SuspendLayout();
             // 
@@ -270,11 +271,23 @@
             this.checkedListBox2.Size = new System.Drawing.Size(46, 34);
             this.checkedListBox2.TabIndex = 26;
             // 
+            // Proveedores
+            // 
+            this.Proveedores.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Proveedores.Location = new System.Drawing.Point(633, 285);
+            this.Proveedores.Name = "Proveedores";
+            this.Proveedores.Size = new System.Drawing.Size(155, 31);
+            this.Proveedores.TabIndex = 27;
+            this.Proveedores.Text = "Añadir Proveedor";
+            this.Proveedores.UseVisualStyleBackColor = true;
+            this.Proveedores.Click += new System.EventHandler(this.Proveedores_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.Proveedores);
             this.Controls.Add(this.checkedListBox2);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.checkedListBox1);
@@ -332,6 +345,7 @@
         private System.Windows.Forms.CheckedListBox checkedListBox1;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.CheckedListBox checkedListBox2;
+        private System.Windows.Forms.Button Proveedores;
     }
 }
 

@@ -17,9 +17,7 @@ namespace PrivadaCrud
         }
 
         private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
+        { }
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -27,19 +25,13 @@ namespace PrivadaCrud
         }
 
         private void textBox3_TextChanged(object sender, EventArgs e)
-        {
-
-        }
+        { }
 
         private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
+        { }
 
         private void textBox4_TextChanged(object sender, EventArgs e)
-        {
-
-        }
+        { }
 
         public void CargarDatos()
         {
@@ -155,9 +147,7 @@ namespace PrivadaCrud
         }
 
         private void dt_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
+        { }
 
         private void checkedListBox1_ItemCheck(object sender, ItemCheckEventArgs e)
         {
@@ -174,14 +164,10 @@ namespace PrivadaCrud
         }
 
         private void label10_Click(object sender, EventArgs e)
-        {
-
-        }
+        { }
 
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
+        { }
 
         private void checkedListBox2_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -228,6 +214,15 @@ namespace PrivadaCrud
             }
 
             CargarDatos(); // Actualizar la tabla después de la inserción
+        }
+
+        private void Proveedores_Click(object sender, EventArgs e)
+        {
+            // Crear una instancia del Form2
+            Form2 form2 = new Form2();
+
+            // Mostrar el Form2
+            form2.Show();
         }
     }
 }
